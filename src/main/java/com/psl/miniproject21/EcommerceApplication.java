@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EcommerceApplication {
 
 	public static void main(String[] args) {
-		//System.out.println("Hello Trupti");
+		
 		SpringApplication.run(EcommerceApplication.class, args);
 		
 	}
