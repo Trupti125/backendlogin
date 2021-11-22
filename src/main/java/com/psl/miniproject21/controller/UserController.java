@@ -28,10 +28,10 @@ public class UserController {
 	public List<User> getUsers() {
 		return userRepository.findAll();
 	}
-	/*@GetMapping(produces = "application/json")
+	@GetMapping(produces = "application/json")
 	@RequestMapping({ "/validateLogin" })
 	public User validateLogin() {
-		return new User();*/
+		return new User();}
 	//}
 	@PostMapping("/add")
 	public void createUser(@RequestBody User user) {
